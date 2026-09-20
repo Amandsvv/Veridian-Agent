@@ -87,8 +87,7 @@ flowchart LR
 │   ├── architecture.md     # In-depth architectural notes & component specifications
 │   ├── decision_rules.md   # Grounding rules, escalation paths, and decision schema
 │   ├── deliverables.md     # Deliverables summary
-│   ├── verification.md     # Verification report across all 15 sample requests
-│   └── Assignment2_Deliverable_Pack.md # Full deliverable pack specification
+│   └── verification.md     # Verification report across all 15 sample requests
 ├── docker-compose.yml      # Single-command local orchestration
 ├── .env.example            # Environment configuration template
 ├── .gitignore              # Git ignore configuration
@@ -147,7 +146,9 @@ docker compose up --build
 
 ## 6. Deliverables & Documentation
 
-- [System Architecture](file:///d:/Project/AgenticAI/Internal_Service_Agent/docs/architecture.md)
-- [Decision Rules Specification](file:///d:/Project/AgenticAI/Internal_Service_Agent/docs/decision_rules.md)
-- [15 Requests Verification Report](file:///d:/Project/AgenticAI/Internal_Service_Agent/docs/verification.md)
-- [Assignment 2 Deliverable Pack](file:///d:/Project/AgenticAI/Internal_Service_Agent/docs/Assignment2_Deliverable_Pack.md)
+| Document | Description |
+|----------|-------------|
+| [architecture.md](docs/architecture.md) | In-depth architectural notes & component specs |
+| [decision_rules.md](docs/decision_rules.md) | Grounding rules, escalation paths, and decision schema |
+| [deliverables.md](docs/deliverables.md) | High-level deliverables summary |
+| [verification.md](docs/verification.md) | 15-request benchmark compliance report |

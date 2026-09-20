@@ -49,3 +49,8 @@ next-env.d.ts
 .DS_Store
 Thumbs.db
 *.log
+
+# Project-local context / assignment files (not part of the shipped codebase)
+CONTEXT.md
+Assignment2_Deliverable_Pack.md
+docs/Assignment2_Deliverable_Pack.md
