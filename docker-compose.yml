@@ -1,0 +1,30 @@
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: it_support_api
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+      - GROQ_MODEL=${GROQ_MODEL:-llama-3.3-70b-versatile}
+      - API_PORT=8000
+      - API_HOST=0.0.0.0
+    volumes:
+      - ./api:/app
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: it_support_web
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+      - PORT=3000
+    depends_on:
+      - api
+    restart: unless-stopped

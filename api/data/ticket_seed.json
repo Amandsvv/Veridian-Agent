@@ -1,0 +1,72 @@
+[
+  {
+    "id": "TK-1042",
+    "employee": "R. Verma",
+    "summary": "VPN credential expired",
+    "status": "Resolved",
+    "closed": true
+  },
+  {
+    "id": "TK-1043",
+    "employee": "S. Iyer",
+    "summary": "Laptop replacement (3.2 yrs old)",
+    "status": "Approved, pending fulfillment",
+    "closed": false
+  },
+  {
+    "id": "TK-1044",
+    "employee": "A. Khan",
+    "summary": "Non-catalog software request",
+    "status": "Pending Security review",
+    "closed": false
+  },
+  {
+    "id": "TK-1045",
+    "employee": "P. Joshi",
+    "summary": "Mailbox quota increase",
+    "status": "Approved at 35GB",
+    "closed": true
+  },
+  {
+    "id": "TK-1046",
+    "employee": "M. Das",
+    "summary": "Printer paper jam, floor 2",
+    "status": "Resolved",
+    "closed": true
+  },
+  {
+    "id": "TK-1047",
+    "employee": "K. Singh",
+    "summary": "Home office equipment request",
+    "status": "Pending Finance",
+    "closed": false
+  },
+  {
+    "id": "TK-1048",
+    "employee": "T. Rao",
+    "summary": "Phishing email reported",
+    "status": "Escalated to Security, under investigation",
+    "closed": false
+  },
+  {
+    "id": "TK-1049",
+    "employee": "V. Nambiar",
+    "summary": "Password reset",
+    "status": "Resolved",
+    "closed": true
+  },
+  {
+    "id": "TK-1050",
+    "employee": "J. Fernandes",
+    "summary": "Admin access request",
+    "status": "Rejected, no business justification provided",
+    "closed": true
+  },
+  {
+    "id": "TK-1051",
+    "employee": "L. Menon",
+    "summary": "Guest Wi-Fi issued",
+    "status": "Resolved",
+    "closed": true
+  }
+]
