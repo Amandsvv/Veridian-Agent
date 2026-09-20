@@ -148,6 +148,7 @@ docker compose up --build
 
 | Document | Description |
 |----------|-------------|
+| [walkthrough.md](docs/walkthrough.md) | **Start here** — end-to-end usage guide |
 | [architecture.md](docs/architecture.md) | In-depth architectural notes & component specs |
 | [decision_rules.md](docs/decision_rules.md) | Grounding rules, escalation paths, and decision schema |
 | [deliverables.md](docs/deliverables.md) | High-level deliverables summary |
