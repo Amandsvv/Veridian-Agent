@@ -18,6 +18,11 @@ COPY . .
 # Next.js telemetry disable during build
 ENV NEXT_TELEMETRY_DISABLED 1
 
+# Accept the public API URL as a build argument so Next.js
+# bakes the real URL into the bundle (NEXT_PUBLIC_ vars are build-time only)
+ARG NEXT_PUBLIC_API_URL=http://localhost:8000
+ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
+
 RUN npm run build
 
 # Production image, copy all the files and run next
